@@ -14,10 +14,10 @@ public class Test {
 		driver.manage().window().maximize();
 		
 		WebElement firstName = driver.findElement(By.xpath("(//input[@name='firstname'])"));  
-		firstName.sendKeys("Shubham");    
+		firstName.sendKeys("Ashish");    
 		
 		WebElement lastName = driver.findElement(By.xpath("(//input[@class=\"inputtext _58mg _5dba _2ph-\"])[2]"));
-		lastName.sendKeys("yetonde");
+		lastName.sendKeys("Dadheech");
 		
 	 	WebElement date = driver.findElement(By.id("day"));
 	 	Select dropDownDate = new Select(date);
