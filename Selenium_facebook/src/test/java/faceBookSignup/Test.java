@@ -44,10 +44,10 @@ public class Test {
 		}
 		
 		WebElement mNumber = driver.findElement(By.xpath("(//input[@type=\"text\"])[5]"));
-		 mNumber.sendKeys("7083458569");
+		 mNumber.sendKeys("8279233958");
 		
 		WebElement password = driver.findElement(By.xpath("//input[@type=\"password\"]"));
-		password.sendKeys("Shubham123");
+		password.sendKeys("Ashish123");
 		
 		WebElement submit = driver.findElement(By.xpath("//button[@type=\"submit\"]"));
 		submit.click();
